@@ -1,3 +1,9 @@
+# insertion sort can perform well on mostly sorted arrays or small data sets
+# works well if receiving live data stream (aka data needs to be continuously sorted) 
+    ## because sorted data is kept to the left 
+# time complexity: worst/avg O(n^2), best O(n)
+# space complexity O(1)
+
 def insertion_sort(arr)
     i = 1
     while i < arr.length

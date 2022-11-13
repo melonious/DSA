@@ -1,4 +1,7 @@
 # optimized bubble sort with break if no swaps were made in that pass, meaning data is already sorted
+# bubble sort can perform well on mostly sorted arrays or small data sets
+# time complexity: worst/avg O(n^2), best O(n)
+# space complexity O(1)
 
 def bubble_sort(arr)
     i = arr.length
